@@ -164,7 +164,7 @@ while (i < 5) {
 3. Implement a function that checks if a number is even or odd.
 4. Loop through an object and log all key-value pairs.
 
-More questions are present in the same folder...
+More questions with solutions are present in the same folder...
 ---
 
 ✅ **Done for Day 1**  
