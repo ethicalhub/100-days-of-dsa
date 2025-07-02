@@ -1,4 +1,4 @@
-# 💯 100 Days of DSA Challenge – JavaScript
+# 100 Days of DSA Challenge – JavaScript
 
 Welcome to the **100 Days of DSA Challenge**! This is a self-paced, community-driven initiative focused on mastering **Data Structures & Algorithms using JavaScript**.
 
@@ -25,7 +25,7 @@ We’re building a community of learners helping each other stay accountable, co
 
 ## 💬 Join the Community
 
-- 👨‍💻 **GitHub Repo:** [[Your GitHub Link](https://github.com/ethicalhub/100-days-of-dsa)]
+- 👨‍💻 **GitHub Repo:** [[GitHub Link](https://github.com/ethicalhub/100-days-of-dsa)]
 - 🔗 **Discord Server:** [https://discord.gg/9a3dDPr5Vq](https://discord.gg/9a3dDPr5Vq)
 
 Use this space to ask questions, share daily updates, or find an accountability partner.
