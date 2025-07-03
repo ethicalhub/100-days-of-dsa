@@ -82,9 +82,35 @@ function reverseStarPattern(n){
     }
 }
 
+// Example print
+// 1 (i =0, j =0, n-i = 4, n-j =4)
+// 01 (n-i = 3, n-j = 4, n-j = 3, i = 1, j = 0, j = 1)
+// 010 (n-i = 2, n-j = 4, n-j = 3, n-j = 2, i = 2, j = 0, j = 1, j = 2)
+// 1010 (n-i = 1, n-j = 4, n-j = 3, n-j = 2, n-j = 1, i = 3, j = 0, j = 1, j = 2, j = 3)
+
+
+// 10101
+// 010101
+// 1010101
+
+// Understand this pattern and try to print it by alt method
+
+function altNumberPattern1(n){
+    let start = 1;
+    for(let i =0; i<n; i++){
+        let row  = ""
+        for(let j=0; j<=i; j++){
+            row  = row + start;
+            start = start === 1 ? 0 : 1; // Toggle between 0
+        }
+
+        console.log(row);
+    }
+}
 
 squareStarPattern(4)
 rightAngleStarPattern(4)
 numberPattern(5)
 numberPattern2(4)
 reverseStarPattern(4)
+altNumberPattern1(6)
